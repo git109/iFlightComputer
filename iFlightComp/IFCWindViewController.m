@@ -89,12 +89,21 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)sender
 {
-    if ([sender isEqual:windSpeed])
+    //NSLog(@"%f",self.view.frame.origin.y);
+    if ([sender isEqual:windDirection])
     {
         //move the main view, so that the keyboard does not hide it.
         if  (self.view.frame.origin.y >= 0)
         {
             [self setViewMovedUp:YES];
+        }
+    }
+    if ([sender isEqual:acftSpeed])
+    {
+        //move the main view down, so that we show the first two fields again.
+        if  (self.view.frame.origin.y < 0)
+        {
+            [self setViewMovedUp:NO];
         }
     }
 }
@@ -114,9 +123,11 @@
     }
     else
     {
-        // revert back to the normal state.
-        rect.origin.y += kOFFSET_FOR_KEYBOARD;
-        rect.size.height -= kOFFSET_FOR_KEYBOARD;
+        if (rect.origin.y != 0) {
+            // revert back to the normal state.
+            rect.origin.y += kOFFSET_FOR_KEYBOARD;
+            rect.size.height -= kOFFSET_FOR_KEYBOARD;
+        }
     }
     self.view.frame = rect;
     
