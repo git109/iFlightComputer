@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A96E38C14D6C641000B1B3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96E38B14D6C641000B1B3E /* UIKit.framework */; };
+		4A96E38E14D6C641000B1B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96E38D14D6C641000B1B3E /* Foundation.framework */; };
+		4A96E39014D6C641000B1B3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96E38F14D6C641000B1B3E /* CoreGraphics.framework */; };
+		4A96E39614D6C642000B1B3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E39414D6C642000B1B3E /* InfoPlist.strings */; };
+		4A96E39814D6C642000B1B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E39714D6C642000B1B3E /* main.m */; };
+		4A96E39C14D6C642000B1B3E /* IFCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E39B14D6C642000B1B3E /* IFCAppDelegate.m */; };
+		4A96E39F14D6C642000B1B3E /* IFCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E39E14D6C642000B1B3E /* IFCFirstViewController.m */; };
+		4A96E3A114D6C642000B1B3E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A014D6C642000B1B3E /* first.png */; };
+		4A96E3A314D6C642000B1B3E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A214D6C642000B1B3E /* first@2x.png */; };
+		4A96E3A614D6C642000B1B3E /* IFCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E3A514D6C642000B1B3E /* IFCSecondViewController.m */; };
+		4A96E3A814D6C642000B1B3E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A714D6C642000B1B3E /* second.png */; };
+		4A96E3AA14D6C642000B1B3E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A914D6C642000B1B3E /* second@2x.png */; };
+		4A96E3AD14D6C642000B1B3E /* IFCFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3AB14D6C642000B1B3E /* IFCFirstViewController.xib */; };
+		4A96E3B014D6C642000B1B3E /* IFCSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3AE14D6C642000B1B3E /* IFCSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A96E38714D6C641000B1B3E /* iFlightComp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFlightComp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A96E38B14D6C641000B1B3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A96E38D14D6C641000B1B3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A96E38F14D6C641000B1B3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A96E39314D6C642000B1B3E /* iFlightComp-Info.plist */ = {isa = PBXFileReference; path = "iFlightComp-Info.plist"; sourceTree = "<group>"; };
+		4A96E39514D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A96E39714D6C642000B1B3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A96E39914D6C642000B1B3E /* iFlightComp-Prefix.pch */ = {isa = PBXFileReference; path = "iFlightComp-Prefix.pch"; sourceTree = "<group>"; };
+		4A96E39A14D6C642000B1B3E /* IFCAppDelegate.h */ = {isa = PBXFileReference; path = IFCAppDelegate.h; sourceTree = "<group>"; };
+		4A96E39B14D6C642000B1B3E /* IFCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCAppDelegate.m; sourceTree = "<group>"; };
+		4A96E39D14D6C642000B1B3E /* IFCFirstViewController.h */ = {isa = PBXFileReference; path = IFCFirstViewController.h; sourceTree = "<group>"; };
+		4A96E39E14D6C642000B1B3E /* IFCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCFirstViewController.m; sourceTree = "<group>"; };
+		4A96E3A014D6C642000B1B3E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4A96E3A214D6C642000B1B3E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4A96E3A414D6C642000B1B3E /* IFCSecondViewController.h */ = {isa = PBXFileReference; path = IFCSecondViewController.h; sourceTree = "<group>"; };
+		4A96E3A514D6C642000B1B3E /* IFCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCSecondViewController.m; sourceTree = "<group>"; };
+		4A96E3A714D6C642000B1B3E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4A96E3A914D6C642000B1B3E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4A96E3AC14D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IFCFirstViewController.xib; sourceTree = "<group>"; };
+		4A96E3AF14D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IFCSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A96E38414D6C641000B1B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A96E38C14D6C641000B1B3E /* UIKit.framework in Frameworks */,
+				4A96E38E14D6C641000B1B3E /* Foundation.framework in Frameworks */,
+				4A96E39014D6C641000B1B3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A96E37C14D6C641000B1B3E = {
+			isa = PBXGroup;
+			children = (
+				4A96E39114D6C642000B1B3E /* iFlightComp */,
+				4A96E38A14D6C641000B1B3E /* Frameworks */,
+				4A96E38814D6C641000B1B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A96E38814D6C641000B1B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A96E38714D6C641000B1B3E /* iFlightComp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A96E38A14D6C641000B1B3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A96E38B14D6C641000B1B3E /* UIKit.framework */,
+				4A96E38D14D6C641000B1B3E /* Foundation.framework */,
+				4A96E38F14D6C641000B1B3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A96E39114D6C642000B1B3E /* iFlightComp */ = {
+			isa = PBXGroup;
+			children = (
+				4A96E39A14D6C642000B1B3E /* IFCAppDelegate.h */,
+				4A96E39B14D6C642000B1B3E /* IFCAppDelegate.m */,
+				4A96E39D14D6C642000B1B3E /* IFCFirstViewController.h */,
+				4A96E39E14D6C642000B1B3E /* IFCFirstViewController.m */,
+				4A96E3A014D6C642000B1B3E /* first.png */,
+				4A96E3A214D6C642000B1B3E /* first@2x.png */,
+				4A96E3A414D6C642000B1B3E /* IFCSecondViewController.h */,
+				4A96E3A514D6C642000B1B3E /* IFCSecondViewController.m */,
+				4A96E3A714D6C642000B1B3E /* second.png */,
+				4A96E3A914D6C642000B1B3E /* second@2x.png */,
+				4A96E3AB14D6C642000B1B3E /* IFCFirstViewController.xib */,
+				4A96E3AE14D6C642000B1B3E /* IFCSecondViewController.xib */,
+				4A96E39214D6C642000B1B3E /* Supporting Files */,
+			);
+			path = iFlightComp;
+			sourceTree = "<group>";
+		};
+		4A96E39214D6C642000B1B3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A96E39314D6C642000B1B3E /* iFlightComp-Info.plist */,
+				4A96E39414D6C642000B1B3E /* InfoPlist.strings */,
+				4A96E39714D6C642000B1B3E /* main.m */,
+				4A96E39914D6C642000B1B3E /* iFlightComp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A96E38614D6C641000B1B3E /* iFlightComp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A96E3B314D6C642000B1B3E /* Build configuration list for PBXNativeTarget "iFlightComp" */;
+			buildPhases = (
+				4A96E38314D6C641000B1B3E /* Sources */,
+				4A96E38414D6C641000B1B3E /* Frameworks */,
+				4A96E38514D6C641000B1B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFlightComp;
+			productName = iFlightComp;
+			productReference = 4A96E38714D6C641000B1B3E /* iFlightComp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A96E37E14D6C641000B1B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4A96E38114D6C641000B1B3E /* Build configuration list for PBXProject "iFlightComp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A96E37C14D6C641000B1B3E;
+			productRefGroup = 4A96E38814D6C641000B1B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A96E38614D6C641000B1B3E /* iFlightComp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A96E38514D6C641000B1B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A96E39614D6C642000B1B3E /* InfoPlist.strings in Resources */,
+				4A96E3A114D6C642000B1B3E /* first.png in Resources */,
+				4A96E3A314D6C642000B1B3E /* first@2x.png in Resources */,
+				4A96E3A814D6C642000B1B3E /* second.png in Resources */,
+				4A96E3AA14D6C642000B1B3E /* second@2x.png in Resources */,
+				4A96E3AD14D6C642000B1B3E /* IFCFirstViewController.xib in Resources */,
+				4A96E3B014D6C642000B1B3E /* IFCSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A96E38314D6C641000B1B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A96E39814D6C642000B1B3E /* main.m in Sources */,
+				4A96E39C14D6C642000B1B3E /* IFCAppDelegate.m in Sources */,
+				4A96E39F14D6C642000B1B3E /* IFCFirstViewController.m in Sources */,
+				4A96E3A614D6C642000B1B3E /* IFCSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A96E39414D6C642000B1B3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A96E39514D6C642000B1B3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A96E3AB14D6C642000B1B3E /* IFCFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A96E3AC14D6C642000B1B3E /* en */,
+			);
+			name = IFCFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		4A96E3AE14D6C642000B1B3E /* IFCSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A96E3AF14D6C642000B1B3E /* en */,
+			);
+			name = IFCSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A96E3B114D6C642000B1B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A96E3B214D6C642000B1B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A96E3B414D6C642000B1B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFlightComp/iFlightComp-Prefix.pch";
+				INFOPLIST_FILE = "iFlightComp/iFlightComp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A96E3B514D6C642000B1B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFlightComp/iFlightComp-Prefix.pch";
+				INFOPLIST_FILE = "iFlightComp/iFlightComp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A96E38114D6C641000B1B3E /* Build configuration list for PBXProject "iFlightComp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A96E3B114D6C642000B1B3E /* Debug */,
+				4A96E3B214D6C642000B1B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A96E3B314D6C642000B1B3E /* Build configuration list for PBXNativeTarget "iFlightComp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A96E3B414D6C642000B1B3E /* Debug */,
+				4A96E3B514D6C642000B1B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A96E37E14D6C641000B1B3E /* Project object */;
+}
