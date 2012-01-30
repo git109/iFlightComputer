@@ -13,14 +13,16 @@
 		4A96E39614D6C642000B1B3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E39414D6C642000B1B3E /* InfoPlist.strings */; };
 		4A96E39814D6C642000B1B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E39714D6C642000B1B3E /* main.m */; };
 		4A96E39C14D6C642000B1B3E /* IFCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E39B14D6C642000B1B3E /* IFCAppDelegate.m */; };
-		4A96E39F14D6C642000B1B3E /* IFCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E39E14D6C642000B1B3E /* IFCFirstViewController.m */; };
+		4A96E39F14D6C642000B1B3E /* IFCConversionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E39E14D6C642000B1B3E /* IFCConversionViewController.m */; };
 		4A96E3A114D6C642000B1B3E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A014D6C642000B1B3E /* first.png */; };
 		4A96E3A314D6C642000B1B3E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A214D6C642000B1B3E /* first@2x.png */; };
-		4A96E3A614D6C642000B1B3E /* IFCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E3A514D6C642000B1B3E /* IFCSecondViewController.m */; };
+		4A96E3A614D6C642000B1B3E /* IFCWindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E3A514D6C642000B1B3E /* IFCWindViewController.m */; };
 		4A96E3A814D6C642000B1B3E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A714D6C642000B1B3E /* second.png */; };
 		4A96E3AA14D6C642000B1B3E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3A914D6C642000B1B3E /* second@2x.png */; };
-		4A96E3AD14D6C642000B1B3E /* IFCFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3AB14D6C642000B1B3E /* IFCFirstViewController.xib */; };
-		4A96E3B014D6C642000B1B3E /* IFCSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3AE14D6C642000B1B3E /* IFCSecondViewController.xib */; };
+		4A96E3AD14D6C642000B1B3E /* IFCConversionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3AB14D6C642000B1B3E /* IFCConversionViewController.xib */; };
+		4A96E3B014D6C642000B1B3E /* IFCWindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3AE14D6C642000B1B3E /* IFCWindViewController.xib */; };
+		4A96E3B814D6C8DF000B1B3E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A96E3BA14D6C8DF000B1B3E /* Localizable.strings */; };
+		4A96E3C214D6E403000B1B3E /* FlightComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E3C014D6E403000B1B3E /* FlightComputer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +30,26 @@
 		4A96E38B14D6C641000B1B3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A96E38D14D6C641000B1B3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A96E38F14D6C641000B1B3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4A96E39314D6C642000B1B3E /* iFlightComp-Info.plist */ = {isa = PBXFileReference; path = "iFlightComp-Info.plist"; sourceTree = "<group>"; };
+		4A96E39314D6C642000B1B3E /* iFlightComp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFlightComp-Info.plist"; sourceTree = "<group>"; };
 		4A96E39514D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A96E39714D6C642000B1B3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A96E39914D6C642000B1B3E /* iFlightComp-Prefix.pch */ = {isa = PBXFileReference; path = "iFlightComp-Prefix.pch"; sourceTree = "<group>"; };
-		4A96E39A14D6C642000B1B3E /* IFCAppDelegate.h */ = {isa = PBXFileReference; path = IFCAppDelegate.h; sourceTree = "<group>"; };
+		4A96E39914D6C642000B1B3E /* iFlightComp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFlightComp-Prefix.pch"; sourceTree = "<group>"; };
+		4A96E39A14D6C642000B1B3E /* IFCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFCAppDelegate.h; sourceTree = "<group>"; };
 		4A96E39B14D6C642000B1B3E /* IFCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCAppDelegate.m; sourceTree = "<group>"; };
-		4A96E39D14D6C642000B1B3E /* IFCFirstViewController.h */ = {isa = PBXFileReference; path = IFCFirstViewController.h; sourceTree = "<group>"; };
-		4A96E39E14D6C642000B1B3E /* IFCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCFirstViewController.m; sourceTree = "<group>"; };
+		4A96E39D14D6C642000B1B3E /* IFCConversionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFCConversionViewController.h; sourceTree = "<group>"; };
+		4A96E39E14D6C642000B1B3E /* IFCConversionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCConversionViewController.m; sourceTree = "<group>"; };
 		4A96E3A014D6C642000B1B3E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		4A96E3A214D6C642000B1B3E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		4A96E3A414D6C642000B1B3E /* IFCSecondViewController.h */ = {isa = PBXFileReference; path = IFCSecondViewController.h; sourceTree = "<group>"; };
-		4A96E3A514D6C642000B1B3E /* IFCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCSecondViewController.m; sourceTree = "<group>"; };
+		4A96E3A414D6C642000B1B3E /* IFCWindViewController.h */ = {isa = PBXFileReference; path = IFCWindViewController.h; sourceTree = "<group>"; };
+		4A96E3A514D6C642000B1B3E /* IFCWindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFCWindViewController.m; sourceTree = "<group>"; };
 		4A96E3A714D6C642000B1B3E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		4A96E3A914D6C642000B1B3E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		4A96E3AC14D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IFCFirstViewController.xib; sourceTree = "<group>"; };
-		4A96E3AF14D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IFCSecondViewController.xib; sourceTree = "<group>"; };
+		4A96E3AC14D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IFCConversionViewController.xib; sourceTree = "<group>"; };
+		4A96E3AF14D6C642000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IFCWindViewController.xib; sourceTree = "<group>"; };
+		4A96E3B914D6C8DF000B1B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A96E3BB14D6C900000B1B3E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A96E3C014D6E403000B1B3E /* FlightComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightComputer.m; sourceTree = "<group>"; };
+		4A96E3C114D6E403000B1B3E /* FlightComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightComputer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,18 +96,21 @@
 		4A96E39114D6C642000B1B3E /* iFlightComp */ = {
 			isa = PBXGroup;
 			children = (
+				4A96E3C014D6E403000B1B3E /* FlightComputer.m */,
+				4A96E3C114D6E403000B1B3E /* FlightComputer.h */,
 				4A96E39A14D6C642000B1B3E /* IFCAppDelegate.h */,
+				4A96E3BA14D6C8DF000B1B3E /* Localizable.strings */,
 				4A96E39B14D6C642000B1B3E /* IFCAppDelegate.m */,
-				4A96E39D14D6C642000B1B3E /* IFCFirstViewController.h */,
-				4A96E39E14D6C642000B1B3E /* IFCFirstViewController.m */,
+				4A96E39D14D6C642000B1B3E /* IFCConversionViewController.h */,
+				4A96E39E14D6C642000B1B3E /* IFCConversionViewController.m */,
 				4A96E3A014D6C642000B1B3E /* first.png */,
 				4A96E3A214D6C642000B1B3E /* first@2x.png */,
-				4A96E3A414D6C642000B1B3E /* IFCSecondViewController.h */,
-				4A96E3A514D6C642000B1B3E /* IFCSecondViewController.m */,
+				4A96E3A414D6C642000B1B3E /* IFCWindViewController.h */,
+				4A96E3A514D6C642000B1B3E /* IFCWindViewController.m */,
 				4A96E3A714D6C642000B1B3E /* second.png */,
 				4A96E3A914D6C642000B1B3E /* second@2x.png */,
-				4A96E3AB14D6C642000B1B3E /* IFCFirstViewController.xib */,
-				4A96E3AE14D6C642000B1B3E /* IFCSecondViewController.xib */,
+				4A96E3AB14D6C642000B1B3E /* IFCConversionViewController.xib */,
+				4A96E3AE14D6C642000B1B3E /* IFCWindViewController.xib */,
 				4A96E39214D6C642000B1B3E /* Supporting Files */,
 			);
 			path = iFlightComp;
@@ -152,6 +161,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				pt,
 			);
 			mainGroup = 4A96E37C14D6C641000B1B3E;
 			productRefGroup = 4A96E38814D6C641000B1B3E /* Products */;
@@ -173,8 +183,9 @@
 				4A96E3A314D6C642000B1B3E /* first@2x.png in Resources */,
 				4A96E3A814D6C642000B1B3E /* second.png in Resources */,
 				4A96E3AA14D6C642000B1B3E /* second@2x.png in Resources */,
-				4A96E3AD14D6C642000B1B3E /* IFCFirstViewController.xib in Resources */,
-				4A96E3B014D6C642000B1B3E /* IFCSecondViewController.xib in Resources */,
+				4A96E3AD14D6C642000B1B3E /* IFCConversionViewController.xib in Resources */,
+				4A96E3B014D6C642000B1B3E /* IFCWindViewController.xib in Resources */,
+				4A96E3B814D6C8DF000B1B3E /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +198,9 @@
 			files = (
 				4A96E39814D6C642000B1B3E /* main.m in Sources */,
 				4A96E39C14D6C642000B1B3E /* IFCAppDelegate.m in Sources */,
-				4A96E39F14D6C642000B1B3E /* IFCFirstViewController.m in Sources */,
-				4A96E3A614D6C642000B1B3E /* IFCSecondViewController.m in Sources */,
+				4A96E39F14D6C642000B1B3E /* IFCConversionViewController.m in Sources */,
+				4A96E3A614D6C642000B1B3E /* IFCWindViewController.m in Sources */,
+				4A96E3C214D6E403000B1B3E /* FlightComputer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,20 +215,29 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		4A96E3AB14D6C642000B1B3E /* IFCFirstViewController.xib */ = {
+		4A96E3AB14D6C642000B1B3E /* IFCConversionViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4A96E3AC14D6C642000B1B3E /* en */,
 			);
-			name = IFCFirstViewController.xib;
+			name = IFCConversionViewController.xib;
 			sourceTree = "<group>";
 		};
-		4A96E3AE14D6C642000B1B3E /* IFCSecondViewController.xib */ = {
+		4A96E3AE14D6C642000B1B3E /* IFCWindViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4A96E3AF14D6C642000B1B3E /* en */,
 			);
-			name = IFCSecondViewController.xib;
+			name = IFCWindViewController.xib;
+			sourceTree = "<group>";
+		};
+		4A96E3BA14D6C8DF000B1B3E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A96E3B914D6C8DF000B1B3E /* en */,
+				4A96E3BB14D6C900000B1B3E /* pt */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -8,9 +8,9 @@
 
 #import "IFCAppDelegate.h"
 
-#import "IFCFirstViewController.h"
+#import "IFCConversionViewController.h"
 
-#import "IFCSecondViewController.h"
+#import "IFCWindViewController.h"
 
 @implementation IFCAppDelegate
 
@@ -21,8 +21,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[IFCFirstViewController alloc] initWithNibName:@"IFCFirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[IFCSecondViewController alloc] initWithNibName:@"IFCSecondViewController" bundle:nil];
+    UIViewController *viewController1 = [[IFCConversionViewController alloc] initWithNibName:@"IFCConversionViewController" bundle:nil];
+    UIViewController *viewController2 = [[IFCWindViewController alloc] initWithNibName:@"IFCWindViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
     self.window.rootViewController = self.tabBarController;
